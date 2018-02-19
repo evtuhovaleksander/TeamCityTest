@@ -16,6 +16,7 @@
 		DE4A2C5D203AD24900AE800C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C5B203AD24900AE800C /* LaunchScreen.storyboard */; };
 		DE4A2C68203AD24900AE800C /* TeamCityTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A2C67203AD24900AE800C /* TeamCityTestUITests.swift */; };
 		DE4A2C74203AD44F00AE800C /* TeamCityTestUITests.xctest in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE4A2C63203AD24900AE800C /* TeamCityTestUITests.xctest */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE4A2C76203AD5EA00AE800C /* TeamCityTestUITests.xctest in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE4A2C63203AD24900AE800C /* TeamCityTestUITests.xctest */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,16 @@
 			dstSubfolderSpec = 7;
 			files = (
 				DE4A2C74203AD44F00AE800C /* TeamCityTestUITests.xctest in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4A2C75203AD5E300AE800C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				DE4A2C76203AD5EA00AE800C /* TeamCityTestUITests.xctest in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +166,7 @@
 				DE4A2C4D203AD24900AE800C /* Resources */,
 				2FBB396D78D43BDA40490D07 /* [CP] Embed Pods Frameworks */,
 				A51102A89712D8B7838DC926 /* [CP] Copy Pods Resources */,
+				DE4A2C75203AD5E300AE800C /* CopyFiles */,
 			);
 			buildRules = (
 			);
