@@ -9,6 +9,7 @@ xctool \
 -scheme TeamCityTestUITests \
 -workspace TeamCityTest.xcworkspace \
 -destination "platform=iOS Simulator,name=iPhone 6,OS=11.2" \
--sdk iphonesimulator \build-tests\
+-sdk iphonesimulator \
+-build-tests\
 run-tests
 #clean test
