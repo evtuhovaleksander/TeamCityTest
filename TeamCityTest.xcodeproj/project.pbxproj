@@ -13,7 +13,18 @@
 		DE4A2C29203ABDA100AE800C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C27203ABDA100AE800C /* Main.storyboard */; };
 		DE4A2C2B203ABDA100AE800C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C2A203ABDA100AE800C /* Assets.xcassets */; };
 		DE4A2C2E203ABDA100AE800C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C2C203ABDA100AE800C /* LaunchScreen.storyboard */; };
+		DE4A2C3C203ACABB00AE800C /* TeamCityTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A2C3B203ACABB00AE800C /* TeamCityTestUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE4A2C3E203ACABB00AE800C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE4A2C18203ABDA100AE800C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE4A2C1F203ABDA100AE800C;
+			remoteInfo = TeamCityTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2B1F31675D87411875903CCD /* Pods-TeamCityTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamCityTest/Pods-TeamCityTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -26,6 +37,9 @@
 		DE4A2C2A203ABDA100AE800C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4A2C2D203ABDA100AE800C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4A2C2F203ABDA100AE800C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4A2C39203ACABB00AE800C /* TeamCityTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamCityTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4A2C3B203ACABB00AE800C /* TeamCityTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCityTestUITests.swift; sourceTree = "<group>"; };
+		DE4A2C3D203ACABB00AE800C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +48,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0768B4DF04AA8F20655EDA3E /* Pods_TeamCityTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4A2C36203ACABB00AE800C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				DE4A2C22203ABDA100AE800C /* TeamCityTest */,
+				DE4A2C3A203ACABB00AE800C /* TeamCityTestUITests */,
 				DE4A2C21203ABDA100AE800C /* Products */,
 				468D97986C7947B1903E13CB /* Pods */,
 				2B2F131A80B6EA84692BD1CA /* Frameworks */,
@@ -71,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				DE4A2C20203ABDA100AE800C /* TeamCityTest.app */,
+				DE4A2C39203ACABB00AE800C /* TeamCityTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +109,15 @@
 				DE4A2C2F203ABDA100AE800C /* Info.plist */,
 			);
 			path = TeamCityTest;
+			sourceTree = "<group>";
+		};
+		DE4A2C3A203ACABB00AE800C /* TeamCityTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE4A2C3B203ACABB00AE800C /* TeamCityTestUITests.swift */,
+				DE4A2C3D203ACABB00AE800C /* Info.plist */,
+			);
+			path = TeamCityTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +143,24 @@
 			productReference = DE4A2C20203ABDA100AE800C /* TeamCityTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DE4A2C38203ACABB00AE800C /* TeamCityTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4A2C42203ACABB00AE800C /* Build configuration list for PBXNativeTarget "TeamCityTestUITests" */;
+			buildPhases = (
+				DE4A2C35203ACABB00AE800C /* Sources */,
+				DE4A2C36203ACABB00AE800C /* Frameworks */,
+				DE4A2C37203ACABB00AE800C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE4A2C3F203ACABB00AE800C /* PBXTargetDependency */,
+			);
+			name = TeamCityTestUITests;
+			productName = TeamCityTestUITests;
+			productReference = DE4A2C39203ACABB00AE800C /* TeamCityTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -124,6 +174,11 @@
 					DE4A2C1F203ABDA100AE800C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					DE4A2C38203ACABB00AE800C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE4A2C1F203ABDA100AE800C;
 					};
 				};
 			};
@@ -141,6 +196,7 @@
 			projectRoot = "";
 			targets = (
 				DE4A2C1F203ABDA100AE800C /* TeamCityTest */,
+				DE4A2C38203ACABB00AE800C /* TeamCityTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +209,13 @@
 				DE4A2C2E203ABDA100AE800C /* LaunchScreen.storyboard in Resources */,
 				DE4A2C2B203ABDA100AE800C /* Assets.xcassets in Resources */,
 				DE4A2C29203ABDA100AE800C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4A2C37203ACABB00AE800C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +282,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE4A2C35203ACABB00AE800C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4A2C3C203ACABB00AE800C /* TeamCityTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE4A2C3F203ACABB00AE800C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE4A2C1F203ABDA100AE800C /* TeamCityTest */;
+			targetProxy = DE4A2C3E203ACABB00AE800C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DE4A2C27203ABDA100AE800C /* Main.storyboard */ = {
@@ -380,6 +459,34 @@
 			};
 			name = Release;
 		};
+		DE4A2C40203ACABB00AE800C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TeamCityTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.TeamCityTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeamCityTest;
+			};
+			name = Debug;
+		};
+		DE4A2C41203ACABB00AE800C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TeamCityTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.TeamCityTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeamCityTest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -397,6 +504,15 @@
 			buildConfigurations = (
 				DE4A2C33203ABDA100AE800C /* Debug */,
 				DE4A2C34203ABDA100AE800C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4A2C42203ACABB00AE800C /* Build configuration list for PBXNativeTarget "TeamCityTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4A2C40203ACABB00AE800C /* Debug */,
+				DE4A2C41203ACABB00AE800C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
