@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE4A2C1F203ABDA100AE800C"
-               BuildableName = "TeamCityTest.app"
-               BlueprintName = "TeamCityTest"
-               ReferencedContainer = "container:TeamCityTest.xcodeproj">
+               BlueprintIdentifier = "66EA70CEEA2429E02E9D985DE6D7F533"
+               BuildableName = "Pods_TeamCityTest.framework"
+               BlueprintName = "Pods-TeamCityTest"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,26 +29,7 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE4A2C38203ACABB00AE800C"
-               BuildableName = "TeamCityTestUITests.xctest"
-               BlueprintName = "TeamCityTestUITests"
-               ReferencedContainer = "container:TeamCityTest.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE4A2C1F203ABDA100AE800C"
-            BuildableName = "TeamCityTest.app"
-            BlueprintName = "TeamCityTest"
-            ReferencedContainer = "container:TeamCityTest.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -63,16 +44,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE4A2C1F203ABDA100AE800C"
-            BuildableName = "TeamCityTest.app"
-            BlueprintName = "TeamCityTest"
-            ReferencedContainer = "container:TeamCityTest.xcodeproj">
+            BlueprintIdentifier = "66EA70CEEA2429E02E9D985DE6D7F533"
+            BuildableName = "Pods_TeamCityTest.framework"
+            BlueprintName = "Pods-TeamCityTest"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -82,16 +62,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE4A2C1F203ABDA100AE800C"
-            BuildableName = "TeamCityTest.app"
-            BlueprintName = "TeamCityTest"
-            ReferencedContainer = "container:TeamCityTest.xcodeproj">
+            BlueprintIdentifier = "66EA70CEEA2429E02E9D985DE6D7F533"
+            BuildableName = "Pods_TeamCityTest.framework"
+            BlueprintName = "Pods-TeamCityTest"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
