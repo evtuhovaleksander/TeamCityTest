@@ -15,7 +15,6 @@
 		DE4A2C5A203AD24900AE800C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C59203AD24900AE800C /* Assets.xcassets */; };
 		DE4A2C5D203AD24900AE800C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C5B203AD24900AE800C /* LaunchScreen.storyboard */; };
 		DE4A2C68203AD24900AE800C /* TeamCityTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A2C67203AD24900AE800C /* TeamCityTestUITests.swift */; };
-		DE4A2C73203AD2EB00AE800C /* TeamCityTestUITests.xctest in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE4A2C63203AD24900AE800C /* TeamCityTestUITests.xctest */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				DE4A2C73203AD2EB00AE800C /* TeamCityTestUITests.xctest in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
