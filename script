@@ -3,7 +3,7 @@ git reset --hard
 git clean -fd
 rm -rf ~/Library/Developer/Xcode/DerivedData/TeamCityTestUITests
 xcrun simctl erase all
-pod install
+
 # Unit tests
 xctool \
 -scheme TeamCityTestUITests \
