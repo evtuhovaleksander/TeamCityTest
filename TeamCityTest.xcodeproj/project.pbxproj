@@ -7,130 +7,137 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0768B4DF04AA8F20655EDA3E /* Pods_TeamCityTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407705440C3A8D0E5F62F852 /* Pods_TeamCityTest.framework */; };
-		DE4A2C24203ABDA100AE800C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A2C23203ABDA100AE800C /* AppDelegate.swift */; };
-		DE4A2C26203ABDA100AE800C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A2C25203ABDA100AE800C /* ViewController.swift */; };
-		DE4A2C29203ABDA100AE800C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C27203ABDA100AE800C /* Main.storyboard */; };
-		DE4A2C2B203ABDA100AE800C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C2A203ABDA100AE800C /* Assets.xcassets */; };
-		DE4A2C2E203ABDA100AE800C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C2C203ABDA100AE800C /* LaunchScreen.storyboard */; };
-		DE4A2C3C203ACABB00AE800C /* TeamCityTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A2C3B203ACABB00AE800C /* TeamCityTestUITests.swift */; };
-		DE4A2C44203ACD9F00AE800C /* TeamCityTestUITests.xctest in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE4A2C39203ACABB00AE800C /* TeamCityTestUITests.xctest */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DE4A2C45203ACDBF00AE800C /* TeamCityTestUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C39203ACABB00AE800C /* TeamCityTestUITests.xctest */; };
+		0E997F0D7D6D71ED35C105A9 /* Pods_TeamCityTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24A855DB3B7D654DB2CA899 /* Pods_TeamCityTest.framework */; };
+		3F7727686B8AA3B587B371AC /* Pods_TeamCityTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502D20F596B7941CF322F4D1 /* Pods_TeamCityTestUITests.framework */; };
+		DE4A2C53203AD24900AE800C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A2C52203AD24900AE800C /* AppDelegate.swift */; };
+		DE4A2C55203AD24900AE800C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A2C54203AD24900AE800C /* ViewController.swift */; };
+		DE4A2C58203AD24900AE800C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C56203AD24900AE800C /* Main.storyboard */; };
+		DE4A2C5A203AD24900AE800C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C59203AD24900AE800C /* Assets.xcassets */; };
+		DE4A2C5D203AD24900AE800C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4A2C5B203AD24900AE800C /* LaunchScreen.storyboard */; };
+		DE4A2C68203AD24900AE800C /* TeamCityTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A2C67203AD24900AE800C /* TeamCityTestUITests.swift */; };
+		DE4A2C73203AD2EB00AE800C /* TeamCityTestUITests.xctest in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE4A2C63203AD24900AE800C /* TeamCityTestUITests.xctest */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DE4A2C3E203ACABB00AE800C /* PBXContainerItemProxy */ = {
+		DE4A2C64203AD24900AE800C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DE4A2C18203ABDA100AE800C /* Project object */;
+			containerPortal = DE4A2C47203AD24900AE800C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE4A2C1F203ABDA100AE800C;
+			remoteGlobalIDString = DE4A2C4E203AD24900AE800C;
 			remoteInfo = TeamCityTest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DE4A2C43203ACD8A00AE800C /* CopyFiles */ = {
+		DE4A2C72203AD2E400AE800C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				DE4A2C44203ACD9F00AE800C /* TeamCityTestUITests.xctest in CopyFiles */,
+				DE4A2C73203AD2EB00AE800C /* TeamCityTestUITests.xctest in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2B1F31675D87411875903CCD /* Pods-TeamCityTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamCityTest/Pods-TeamCityTest.debug.xcconfig"; sourceTree = "<group>"; };
-		407705440C3A8D0E5F62F852 /* Pods_TeamCityTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamCityTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		976FAFB643C853679658B648 /* Pods-TeamCityTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamCityTest/Pods-TeamCityTest.release.xcconfig"; sourceTree = "<group>"; };
-		DE4A2C20203ABDA100AE800C /* TeamCityTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamCityTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE4A2C23203ABDA100AE800C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE4A2C25203ABDA100AE800C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE4A2C28203ABDA100AE800C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DE4A2C2A203ABDA100AE800C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE4A2C2D203ABDA100AE800C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE4A2C2F203ABDA100AE800C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE4A2C39203ACABB00AE800C /* TeamCityTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamCityTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE4A2C3B203ACABB00AE800C /* TeamCityTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCityTestUITests.swift; sourceTree = "<group>"; };
-		DE4A2C3D203ACABB00AE800C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11165CB413CCD14B4772A178 /* Pods-TeamCityTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamCityTest/Pods-TeamCityTest.debug.xcconfig"; sourceTree = "<group>"; };
+		161B1AEA741D917349A1F83E /* Pods-TeamCityTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamCityTestUITests/Pods-TeamCityTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		502D20F596B7941CF322F4D1 /* Pods_TeamCityTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamCityTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		639DE6D17B12230BDCC40950 /* Pods-TeamCityTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamCityTestUITests/Pods-TeamCityTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C60BD5C9DC3FE8804BDAC1B /* Pods-TeamCityTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamCityTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamCityTest/Pods-TeamCityTest.release.xcconfig"; sourceTree = "<group>"; };
+		B24A855DB3B7D654DB2CA899 /* Pods_TeamCityTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamCityTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4A2C4F203AD24900AE800C /* TeamCityTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamCityTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4A2C52203AD24900AE800C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE4A2C54203AD24900AE800C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE4A2C57203AD24900AE800C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE4A2C59203AD24900AE800C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE4A2C5C203AD24900AE800C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE4A2C5E203AD24900AE800C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4A2C63203AD24900AE800C /* TeamCityTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamCityTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4A2C67203AD24900AE800C /* TeamCityTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCityTestUITests.swift; sourceTree = "<group>"; };
+		DE4A2C69203AD24900AE800C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DE4A2C1D203ABDA100AE800C /* Frameworks */ = {
+		DE4A2C4C203AD24900AE800C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0768B4DF04AA8F20655EDA3E /* Pods_TeamCityTest.framework in Frameworks */,
+				0E997F0D7D6D71ED35C105A9 /* Pods_TeamCityTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE4A2C36203ACABB00AE800C /* Frameworks */ = {
+		DE4A2C60203AD24900AE800C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7727686B8AA3B587B371AC /* Pods_TeamCityTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B2F131A80B6EA84692BD1CA /* Frameworks */ = {
+		7E42365CD214F88BEAEB0C54 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				407705440C3A8D0E5F62F852 /* Pods_TeamCityTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		468D97986C7947B1903E13CB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2B1F31675D87411875903CCD /* Pods-TeamCityTest.debug.xcconfig */,
-				976FAFB643C853679658B648 /* Pods-TeamCityTest.release.xcconfig */,
+				11165CB413CCD14B4772A178 /* Pods-TeamCityTest.debug.xcconfig */,
+				8C60BD5C9DC3FE8804BDAC1B /* Pods-TeamCityTest.release.xcconfig */,
+				639DE6D17B12230BDCC40950 /* Pods-TeamCityTestUITests.debug.xcconfig */,
+				161B1AEA741D917349A1F83E /* Pods-TeamCityTestUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DE4A2C17203ABDA100AE800C = {
+		D288A68997EEFAC739C002F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DE4A2C22203ABDA100AE800C /* TeamCityTest */,
-				DE4A2C3A203ACABB00AE800C /* TeamCityTestUITests */,
-				DE4A2C21203ABDA100AE800C /* Products */,
-				468D97986C7947B1903E13CB /* Pods */,
-				2B2F131A80B6EA84692BD1CA /* Frameworks */,
+				B24A855DB3B7D654DB2CA899 /* Pods_TeamCityTest.framework */,
+				502D20F596B7941CF322F4D1 /* Pods_TeamCityTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE4A2C46203AD24900AE800C = {
+			isa = PBXGroup;
+			children = (
+				DE4A2C51203AD24900AE800C /* TeamCityTest */,
+				DE4A2C66203AD24900AE800C /* TeamCityTestUITests */,
+				DE4A2C50203AD24900AE800C /* Products */,
+				7E42365CD214F88BEAEB0C54 /* Pods */,
+				D288A68997EEFAC739C002F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		DE4A2C21203ABDA100AE800C /* Products */ = {
+		DE4A2C50203AD24900AE800C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE4A2C20203ABDA100AE800C /* TeamCityTest.app */,
-				DE4A2C39203ACABB00AE800C /* TeamCityTestUITests.xctest */,
+				DE4A2C4F203AD24900AE800C /* TeamCityTest.app */,
+				DE4A2C63203AD24900AE800C /* TeamCityTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE4A2C22203ABDA100AE800C /* TeamCityTest */ = {
+		DE4A2C51203AD24900AE800C /* TeamCityTest */ = {
 			isa = PBXGroup;
 			children = (
-				DE4A2C23203ABDA100AE800C /* AppDelegate.swift */,
-				DE4A2C25203ABDA100AE800C /* ViewController.swift */,
-				DE4A2C27203ABDA100AE800C /* Main.storyboard */,
-				DE4A2C2A203ABDA100AE800C /* Assets.xcassets */,
-				DE4A2C2C203ABDA100AE800C /* LaunchScreen.storyboard */,
-				DE4A2C2F203ABDA100AE800C /* Info.plist */,
+				DE4A2C52203AD24900AE800C /* AppDelegate.swift */,
+				DE4A2C54203AD24900AE800C /* ViewController.swift */,
+				DE4A2C56203AD24900AE800C /* Main.storyboard */,
+				DE4A2C59203AD24900AE800C /* Assets.xcassets */,
+				DE4A2C5B203AD24900AE800C /* LaunchScreen.storyboard */,
+				DE4A2C5E203AD24900AE800C /* Info.plist */,
 			);
 			path = TeamCityTest;
 			sourceTree = "<group>";
 		};
-		DE4A2C3A203ACABB00AE800C /* TeamCityTestUITests */ = {
+		DE4A2C66203AD24900AE800C /* TeamCityTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DE4A2C3B203ACABB00AE800C /* TeamCityTestUITests.swift */,
-				DE4A2C3D203ACABB00AE800C /* Info.plist */,
+				DE4A2C67203AD24900AE800C /* TeamCityTestUITests.swift */,
+				DE4A2C69203AD24900AE800C /* Info.plist */,
 			);
 			path = TeamCityTestUITests;
 			sourceTree = "<group>";
@@ -138,16 +145,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE4A2C1F203ABDA100AE800C /* TeamCityTest */ = {
+		DE4A2C4E203AD24900AE800C /* TeamCityTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE4A2C32203ABDA100AE800C /* Build configuration list for PBXNativeTarget "TeamCityTest" */;
+			buildConfigurationList = DE4A2C6C203AD24900AE800C /* Build configuration list for PBXNativeTarget "TeamCityTest" */;
 			buildPhases = (
-				AD31B2F188BC98675B68BCF4 /* [CP] Check Pods Manifest.lock */,
-				DE4A2C1C203ABDA100AE800C /* Sources */,
-				DE4A2C1D203ABDA100AE800C /* Frameworks */,
-				DE4A2C1E203ABDA100AE800C /* Resources */,
-				4E29163695370D76F93B4F0E /* [CP] Embed Pods Frameworks */,
-				F7B1B7627F0640880E6FAA5F /* [CP] Copy Pods Resources */,
+				9CFC870F60C3BED5E94A6F4E /* [CP] Check Pods Manifest.lock */,
+				DE4A2C4B203AD24900AE800C /* Sources */,
+				DE4A2C4C203AD24900AE800C /* Frameworks */,
+				DE4A2C4D203AD24900AE800C /* Resources */,
+				2FBB396D78D43BDA40490D07 /* [CP] Embed Pods Frameworks */,
+				A51102A89712D8B7838DC926 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,50 +162,53 @@
 			);
 			name = TeamCityTest;
 			productName = TeamCityTest;
-			productReference = DE4A2C20203ABDA100AE800C /* TeamCityTest.app */;
+			productReference = DE4A2C4F203AD24900AE800C /* TeamCityTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DE4A2C38203ACABB00AE800C /* TeamCityTestUITests */ = {
+		DE4A2C62203AD24900AE800C /* TeamCityTestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE4A2C42203ACABB00AE800C /* Build configuration list for PBXNativeTarget "TeamCityTestUITests" */;
+			buildConfigurationList = DE4A2C6F203AD24900AE800C /* Build configuration list for PBXNativeTarget "TeamCityTestUITests" */;
 			buildPhases = (
-				DE4A2C35203ACABB00AE800C /* Sources */,
-				DE4A2C36203ACABB00AE800C /* Frameworks */,
-				DE4A2C37203ACABB00AE800C /* Resources */,
-				DE4A2C43203ACD8A00AE800C /* CopyFiles */,
+				BB5900D204F540624516EFEC /* [CP] Check Pods Manifest.lock */,
+				DE4A2C5F203AD24900AE800C /* Sources */,
+				DE4A2C60203AD24900AE800C /* Frameworks */,
+				DE4A2C61203AD24900AE800C /* Resources */,
+				994BF861F1E49FDF5CA6F2E4 /* [CP] Embed Pods Frameworks */,
+				88EA09E1556A0F6076C57F86 /* [CP] Copy Pods Resources */,
+				DE4A2C72203AD2E400AE800C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DE4A2C3F203ACABB00AE800C /* PBXTargetDependency */,
+				DE4A2C65203AD24900AE800C /* PBXTargetDependency */,
 			);
 			name = TeamCityTestUITests;
 			productName = TeamCityTestUITests;
-			productReference = DE4A2C39203ACABB00AE800C /* TeamCityTestUITests.xctest */;
+			productReference = DE4A2C63203AD24900AE800C /* TeamCityTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DE4A2C18203ABDA100AE800C /* Project object */ = {
+		DE4A2C47203AD24900AE800C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Aleksander Evtuhov";
 				TargetAttributes = {
-					DE4A2C1F203ABDA100AE800C = {
+					DE4A2C4E203AD24900AE800C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					DE4A2C38203ACABB00AE800C = {
+					DE4A2C62203AD24900AE800C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = DE4A2C1F203ABDA100AE800C;
+						TestTargetID = DE4A2C4E203AD24900AE800C;
 					};
 				};
 			};
-			buildConfigurationList = DE4A2C1B203ABDA100AE800C /* Build configuration list for PBXProject "TeamCityTest" */;
+			buildConfigurationList = DE4A2C4A203AD24900AE800C /* Build configuration list for PBXProject "TeamCityTest" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -206,30 +216,29 @@
 				en,
 				Base,
 			);
-			mainGroup = DE4A2C17203ABDA100AE800C;
-			productRefGroup = DE4A2C21203ABDA100AE800C /* Products */;
+			mainGroup = DE4A2C46203AD24900AE800C;
+			productRefGroup = DE4A2C50203AD24900AE800C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE4A2C1F203ABDA100AE800C /* TeamCityTest */,
-				DE4A2C38203ACABB00AE800C /* TeamCityTestUITests */,
+				DE4A2C4E203AD24900AE800C /* TeamCityTest */,
+				DE4A2C62203AD24900AE800C /* TeamCityTestUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DE4A2C1E203ABDA100AE800C /* Resources */ = {
+		DE4A2C4D203AD24900AE800C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE4A2C45203ACDBF00AE800C /* TeamCityTestUITests.xctest in Resources */,
-				DE4A2C2E203ABDA100AE800C /* LaunchScreen.storyboard in Resources */,
-				DE4A2C2B203ABDA100AE800C /* Assets.xcassets in Resources */,
-				DE4A2C29203ABDA100AE800C /* Main.storyboard in Resources */,
+				DE4A2C5D203AD24900AE800C /* LaunchScreen.storyboard in Resources */,
+				DE4A2C5A203AD24900AE800C /* Assets.xcassets in Resources */,
+				DE4A2C58203AD24900AE800C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE4A2C37203ACABB00AE800C /* Resources */ = {
+		DE4A2C61203AD24900AE800C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,7 +248,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4E29163695370D76F93B4F0E /* [CP] Embed Pods Frameworks */ = {
+		2FBB396D78D43BDA40490D07 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,7 +263,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamCityTest/Pods-TeamCityTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AD31B2F188BC98675B68BCF4 /* [CP] Check Pods Manifest.lock */ = {
+		88EA09E1556A0F6076C57F86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamCityTestUITests/Pods-TeamCityTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		994BF861F1E49FDF5CA6F2E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamCityTestUITests/Pods-TeamCityTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFC870F60C3BED5E94A6F4E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,7 +311,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F7B1B7627F0640880E6FAA5F /* [CP] Copy Pods Resources */ = {
+		A51102A89712D8B7838DC926 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,49 +326,67 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamCityTest/Pods-TeamCityTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BB5900D204F540624516EFEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeamCityTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DE4A2C1C203ABDA100AE800C /* Sources */ = {
+		DE4A2C4B203AD24900AE800C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE4A2C26203ABDA100AE800C /* ViewController.swift in Sources */,
-				DE4A2C24203ABDA100AE800C /* AppDelegate.swift in Sources */,
+				DE4A2C55203AD24900AE800C /* ViewController.swift in Sources */,
+				DE4A2C53203AD24900AE800C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE4A2C35203ACABB00AE800C /* Sources */ = {
+		DE4A2C5F203AD24900AE800C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE4A2C3C203ACABB00AE800C /* TeamCityTestUITests.swift in Sources */,
+				DE4A2C68203AD24900AE800C /* TeamCityTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DE4A2C3F203ACABB00AE800C /* PBXTargetDependency */ = {
+		DE4A2C65203AD24900AE800C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DE4A2C1F203ABDA100AE800C /* TeamCityTest */;
-			targetProxy = DE4A2C3E203ACABB00AE800C /* PBXContainerItemProxy */;
+			target = DE4A2C4E203AD24900AE800C /* TeamCityTest */;
+			targetProxy = DE4A2C64203AD24900AE800C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE4A2C27203ABDA100AE800C /* Main.storyboard */ = {
+		DE4A2C56203AD24900AE800C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE4A2C28203ABDA100AE800C /* Base */,
+				DE4A2C57203AD24900AE800C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DE4A2C2C203ABDA100AE800C /* LaunchScreen.storyboard */ = {
+		DE4A2C5B203AD24900AE800C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE4A2C2D203ABDA100AE800C /* Base */,
+				DE4A2C5C203AD24900AE800C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -337,7 +394,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DE4A2C30203ABDA100AE800C /* Debug */ = {
+		DE4A2C6A203AD24900AE800C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -394,7 +451,7 @@
 			};
 			name = Debug;
 		};
-		DE4A2C31203ABDA100AE800C /* Release */ = {
+		DE4A2C6B203AD24900AE800C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -444,13 +501,12 @@
 			};
 			name = Release;
 		};
-		DE4A2C33203ABDA100AE800C /* Debug */ = {
+		DE4A2C6D203AD24900AE800C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B1F31675D87411875903CCD /* Pods-TeamCityTest.debug.xcconfig */;
+			baseConfigurationReference = 11165CB413CCD14B4772A178 /* Pods-TeamCityTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TeamCityTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.TeamCityTest;
@@ -460,13 +516,12 @@
 			};
 			name = Debug;
 		};
-		DE4A2C34203ABDA100AE800C /* Release */ = {
+		DE4A2C6E203AD24900AE800C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 976FAFB643C853679658B648 /* Pods-TeamCityTest.release.xcconfig */;
+			baseConfigurationReference = 8C60BD5C9DC3FE8804BDAC1B /* Pods-TeamCityTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TeamCityTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.TeamCityTest;
@@ -476,9 +531,11 @@
 			};
 			name = Release;
 		};
-		DE4A2C40203ACABB00AE800C /* Debug */ = {
+		DE4A2C70203AD24900AE800C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 639DE6D17B12230BDCC40950 /* Pods-TeamCityTestUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TeamCityTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -490,9 +547,11 @@
 			};
 			name = Debug;
 		};
-		DE4A2C41203ACABB00AE800C /* Release */ = {
+		DE4A2C71203AD24900AE800C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161B1AEA741D917349A1F83E /* Pods-TeamCityTestUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TeamCityTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,34 +566,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE4A2C1B203ABDA100AE800C /* Build configuration list for PBXProject "TeamCityTest" */ = {
+		DE4A2C4A203AD24900AE800C /* Build configuration list for PBXProject "TeamCityTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE4A2C30203ABDA100AE800C /* Debug */,
-				DE4A2C31203ABDA100AE800C /* Release */,
+				DE4A2C6A203AD24900AE800C /* Debug */,
+				DE4A2C6B203AD24900AE800C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE4A2C32203ABDA100AE800C /* Build configuration list for PBXNativeTarget "TeamCityTest" */ = {
+		DE4A2C6C203AD24900AE800C /* Build configuration list for PBXNativeTarget "TeamCityTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE4A2C33203ABDA100AE800C /* Debug */,
-				DE4A2C34203ABDA100AE800C /* Release */,
+				DE4A2C6D203AD24900AE800C /* Debug */,
+				DE4A2C6E203AD24900AE800C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE4A2C42203ACABB00AE800C /* Build configuration list for PBXNativeTarget "TeamCityTestUITests" */ = {
+		DE4A2C6F203AD24900AE800C /* Build configuration list for PBXNativeTarget "TeamCityTestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE4A2C40203ACABB00AE800C /* Debug */,
-				DE4A2C41203ACABB00AE800C /* Release */,
+				DE4A2C70203AD24900AE800C /* Debug */,
+				DE4A2C71203AD24900AE800C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DE4A2C18203ABDA100AE800C /* Project object */;
+	rootObject = DE4A2C47203AD24900AE800C /* Project object */;
 }

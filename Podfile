@@ -7,4 +7,9 @@ target 'TeamCityTest' do
 
   # Pods for TeamCityTest
 
+  target 'TeamCityTestUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
 end

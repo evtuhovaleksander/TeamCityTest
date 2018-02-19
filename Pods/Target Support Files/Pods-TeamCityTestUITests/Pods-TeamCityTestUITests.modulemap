@@ -1,0 +1,6 @@
+framework module Pods_TeamCityTestUITests {
+  umbrella header "Pods-TeamCityTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

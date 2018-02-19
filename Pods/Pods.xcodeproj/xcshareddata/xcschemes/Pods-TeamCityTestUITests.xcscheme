@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0920"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "66EA70CEEA2429E02E9D985DE6D7F533"
-               BuildableName = "Pods_TeamCityTest.framework"
-               BlueprintName = "Pods-TeamCityTest"
+               BlueprintIdentifier = "317382365C747500785C58A2BB4AAC11"
+               BuildableName = "Pods_TeamCityTestUITests.framework"
+               BlueprintName = "Pods-TeamCityTestUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "66EA70CEEA2429E02E9D985DE6D7F533"
-            BuildableName = "Pods_TeamCityTest.framework"
-            BlueprintName = "Pods-TeamCityTest"
+            BlueprintIdentifier = "317382365C747500785C58A2BB4AAC11"
+            BuildableName = "Pods_TeamCityTestUITests.framework"
+            BlueprintName = "Pods-TeamCityTestUITests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,15 +62,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "66EA70CEEA2429E02E9D985DE6D7F533"
-            BuildableName = "Pods_TeamCityTest.framework"
-            BlueprintName = "Pods-TeamCityTest"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

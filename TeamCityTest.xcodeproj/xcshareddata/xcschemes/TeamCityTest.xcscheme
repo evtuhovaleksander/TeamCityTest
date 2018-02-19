@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE4A2C1F203ABDA100AE800C"
+               BlueprintIdentifier = "DE4A2C4E203AD24900AE800C"
                BuildableName = "TeamCityTest.app"
                BlueprintName = "TeamCityTest"
                ReferencedContainer = "container:TeamCityTest.xcodeproj">
@@ -33,7 +33,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE4A2C38203ACABB00AE800C"
+               BlueprintIdentifier = "DE4A2C62203AD24900AE800C"
                BuildableName = "TeamCityTestUITests.xctest"
                BlueprintName = "TeamCityTestUITests"
                ReferencedContainer = "container:TeamCityTest.xcodeproj">
@@ -43,7 +43,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE4A2C1F203ABDA100AE800C"
+            BlueprintIdentifier = "DE4A2C4E203AD24900AE800C"
             BuildableName = "TeamCityTest.app"
             BlueprintName = "TeamCityTest"
             ReferencedContainer = "container:TeamCityTest.xcodeproj">
@@ -67,7 +67,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE4A2C1F203ABDA100AE800C"
+            BlueprintIdentifier = "DE4A2C4E203AD24900AE800C"
             BuildableName = "TeamCityTest.app"
             BlueprintName = "TeamCityTest"
             ReferencedContainer = "container:TeamCityTest.xcodeproj">
@@ -86,7 +86,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE4A2C1F203ABDA100AE800C"
+            BlueprintIdentifier = "DE4A2C4E203AD24900AE800C"
             BuildableName = "TeamCityTest.app"
             BlueprintName = "TeamCityTest"
             ReferencedContainer = "container:TeamCityTest.xcodeproj">
